@@ -1,0 +1,19 @@
+{
+	"name": "LS_SNOWFLAKE_SRC",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SnowflakeV2",
+		"typeProperties": {
+			"authenticationType": "Basic",
+			"accountIdentifier": "GDWCTQX-BX82887",
+			"user": "BALUPATIL",
+			"database": "DBAZURESNOW",
+			"warehouse": "COMPUTE_WH",
+			"host": "GDWCTQX-BX82887.snowflakecomputing.com",
+			"useUtcTimestamps": false,
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDQxNjRFNzg5LTYyMDYtNDkyMC05MzVELTNDMzI3MEUyMzFDMl9kNmFlY2RlZi1iMGQyLTQwN2YtOTliMS1iMmQ5MDI2MTNhMjUiDQp9"
+		},
+		"version": "1.1"
+	}
+}
